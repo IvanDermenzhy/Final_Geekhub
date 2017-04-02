@@ -1,0 +1,31 @@
+footer {
+	margin-top: 50px;
+	background: url("/img/header/header-bg-gray.jpg");
+	padding: 40px 0;
+	position: relative;
+	border-top: 10px solid #ccc;
+	border-bottom: 40px solid #000;
+	&:after {
+		content: '';
+		width: 220px;
+		height: 100px;
+		position: absolute;
+		top: -58px;
+		right: 110px;
+		background: url("/img/decoration/footer-decoration.png");
+	}
+	.link {
+		h3 {
+			font-size: 1.4rem;
+			color: #6d6c6c;
+		}
+		a {
+			font-size: 1.2rem;
+			color: white;
+			text-decoration: underline;
+		}
+	}
+	.logo-web-studio {
+		float: right;
+	}
+}
